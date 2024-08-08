@@ -1,0 +1,49 @@
+Pandas:
+-Pandas is a software library written for the Python Programming Language for Data manipulating and analysis.
+-It give data structure and operation for manipulating numerical table.
+-Pandas is built around data structures called Series and DataFrames
+-A Series is a 1-dimensional and A DataFrames is a 2-Dimensional data structure.
+
+NumPy:
+-NumPy is a library for the Python Programming Language, it add support for large, multi-dimensional arrays and matrices. along with a large collection of high-level Mathematical functions to operate these arrays.
+-It is a open-source software and has many contributors.
+-NumPy addresses the slowness problem partly by providing multidimensional arrays and functions and operators that operate efficiently on arrays; using these requires rewriting some code, mostly inner loops, using NumPy.
+-Using it in Python gives functionality comparable to MATLAB since they are both interpreted, and they both allow the user to write fast programs as long as most operations work on arrays or matrices instead of scalars.
+-Python bindings of the widely used computer vision library OpenCV utilize NumPy arrays to store and operate on data.
+-The np.pad(...) routine to extend arrays actually creates new arrays of the desired shape and padding values, copies the given array into the new one and returns it. NumPy's np.concatenate([a1,a2]) operation does not actually link the two arrays but returns a new one, filled with the entries from both given arrays in sequence.
+
+TensorFlow:
+-TensorFlow is a free and open-source software library for machine learning and artificial intelligence.
+-It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.
+-TensorFlow can be used in a wide variety of programming languages, including Python, JavaScript, C++, and Java, facilitating its use in a range of applications in many sectors.
+-TensorFlow is Google Brain's second-generation system.
+-TensorFlow is Google Brain's second-generation system.
+-TensorFlow derives from the operations that such neural networks perform on multidimensional data arrays, which are referred to as tensors.
+-It serves as a core platform and library for machine learning. 
+-TensorFlow provides a stable Python Application Program Interface, as well as APIs without backwards compatibility guarantee for Javascript, C++, and Java.
+
+Keras:
+-Keras is an open-source library that provides a Python interface for artificial neural networks.
+-Keras was first independent software, then integrated into the TensorFlow library, and later supporting more.
+-Keras contains numerous implementations of commonly used neural-network building blocks such as layers, objectives, activation functions, optimizers, and a host of tools for working with image and text data to simplify programming in deep neural network area.
+-In addition to standard neural networks, Keras has support for convolutional and recurrent neural networks.
+-Keras allows users to produce deep models on smartphones (iOS and Android), on the web, or on the Java Virtual Machine.
+
+sklearn:
+-sklearn is formerly kown scikits.learn is a free and open-source machine learning library for the python programming language.
+-It features various classification, regression and clustering algorithms including support-vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
+-cikit-learn is largely written in Python, and uses NumPy extensively for high-performance linear algebra and array operations.
+-In 2019, sklearn was noted that scikit-learn is one of the most popular machine learning libraries on GitHub.
+
+PyTorch:
+-PyTorch is a machine learning library based on the Torch Library, used for applications such as computer vision and natural language processing, originally developed by Meta AI and now part of the Linux Foundation umbrella.
+-It is recognized as one of the two most popular machine learning libraries alongside TensorFlow.
+-It offers free and open-source software release under the modified BSD license.
+-A number of pieces of deep learning software are built on top of PyTorch, including Tesla Autopilot, Uber's Pyro, Hugging Face's Transformers, PyTorch Lightning, and Catalyst.
+-PyTorch provides two high-level features:
+ 1. Tensor computing (like NumPy) with strong acceleration via graphics processing units (GPU)
+ 2. Deep neural networks built on a tape-based automatic differentiation system
+-PyTorch defines a class called Tensor (torch.Tensor) to store and operate on homogeneous multidimensional rectangular arrays of numbers.
+-PyTorch defines a module called nn (torch.nn) to describe neural networks and to support training.
+- This module offers a comprehensive collection of building blocks for neural networks.
+-Networks are built by inheriting from the torch.nn module and defining the sequence of operations in the forward() function.
